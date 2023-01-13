@@ -1,0 +1,43 @@
+.container{
+    background-color: bisque    ;
+    width: 870px;
+    height: ;
+}
+.main{
+    display: flex;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.imageblog{
+    width: 177px;
+    height: 117px;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
+.sectiontitel{
+    background-color: blue;
+    font-size: 50px;
+padding-top: 40px;
+}
+hr{ border: 2px solid green;}
+.player-name{
+    margin-left: 20px;
+}
+.article{
+    display: flex;
+    gap: 30px;
+}
+.blogone{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 26px;
+}
