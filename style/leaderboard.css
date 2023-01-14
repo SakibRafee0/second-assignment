@@ -41,3 +41,28 @@ hr{ border: 2px solid green;}
     grid-template-columns: repeat(2, 1fr);
     gap: 26px;
 }
+.courseimg{
+    width: 224px;
+    height: 184px;
+}
+.fa-star.filled{
+    color: darkgoldenrod;
+}
+.fa-star.empty{
+    color:bisque;
+}
+.okcourse{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.juthyone{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+}
+/* media queries */
+@media only screen and (max-width:688px) {
+    
+    
+}
